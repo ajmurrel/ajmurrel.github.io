@@ -3,9 +3,9 @@ layout: default
 title: "Alexis's Weekly Assignments"
 ---
 	<h1>{{ page.title }}</h1>
-	<ul class="assignments">
+	<ul class="homework">
 
-	  {% for assignment in site.assignments %}
-	    <li><span>{{ assignment.date | date_to_string }}</span> » <a href="{{ assignment.url }}" title="{{ assignment.title }}">{{ assignment.title }}</a></li>
+	  {% for assignment in site.homework %}
+	    <li><span>{{ homework.date | date_to_string }}</span> » <a href="{{ homework.url }}" title="{{ homework.title }}">{{ homework.title }}</a></li>
 	  {% endfor %}
 	</ul>
