@@ -1,8 +1,11 @@
 ---
 layout: default
-title: "Homework"
+title: "Alexis's Weekly Assignments"
 ---
-<div class="blurb">
-	<h1>Z603 Assignments and Homework</h1>
-	<p>You will find my weekly course assignments on this page.</p>
-</div><!-- /.blurb -->
+	<h1>{{ page.title }}</h1>
+	<ul class="posts">
+
+	  {% for post in site.posts %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
