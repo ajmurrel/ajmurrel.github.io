@@ -5,7 +5,7 @@ title: "Alexis's Weekly Assignments"
 	<h1>{{ page.title }}</h1>
 	<ul class="assignments">
 
-	  {% for post in site.posts %}
+	  {% for assignment in site.assignments %}
 	    <li><span>{{ assignment.date | date_to_string }}</span> » <a href="{{ assignment.url }}" title="{{ assignment.title }}">{{ assignment.title }}</a></li>
 	  {% endfor %}
 	</ul>
