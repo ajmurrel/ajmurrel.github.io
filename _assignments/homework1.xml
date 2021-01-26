@@ -1,5 +1,5 @@
 ---
-layout: assignment
+layout: assignments
 title: "Homework 1"
 date: 2021-01-26
 ---
@@ -53,5 +53,5 @@ date: 2021-01-26
         <step>Brush the tarts with melted butter and sprinkle the top with the extra sugar.</step>
         <step>Bake for about 20 to 25 minutes until the pastry is puffed and golden around the edges.</step>
         <optional_step>Drizzle with honey after baking and seve with a dollop of whipped cream.</optional_step>
-    </directions>
+    </directions> 
 </recipe>
