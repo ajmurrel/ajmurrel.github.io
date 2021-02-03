@@ -1,0 +1,56 @@
+* {
+    display:block;
+}
+@font-face {
+    font-family: Baskervville;
+    src: url("/baskervville/Baskervville-Regular.otf") format("opentype");
+}
+hi {
+    font-family: Baskervville; 
+    text-transform: uppercase;
+}
+titlePart {
+    font-family: Baskervville; 
+    text-transform: uppercase;
+}
+docImprint {
+    font-family: Baskervville; 
+    text-transform: uppercase;
+}
+[rendition~="#red"] {
+    color: crimson;
+}
+[rendition~="#center"] {
+    text-align: center;
+}
+[rendition~="#expanded"] {
+    word-spacing: 10px;
+    letter-spacing: 3px;
+}
+[rendition~="#small"] {
+    font-size: 50%;   
+}
+[rendition~="#large"] {
+    font-size: 75%;
+}
+[rendition~="#x-large"] {
+    font-size: 150%;
+}
+[rendition~="#xx-large"] {
+    font-size: 225%;
+}
+lb {
+    line-height: 20px;
+}
+space[quantity="1"] {
+    padding:10px;
+}
+space[quantity="3"] {
+    padding:30px;
+}
+space[quantity="4"] {
+    padding:40px;
+}
+space[quantity="5"] {
+    padding:50px;
+}
