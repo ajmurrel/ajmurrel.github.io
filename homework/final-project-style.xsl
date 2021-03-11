@@ -50,7 +50,7 @@
                 
                     <p>My transformation sought to extract specific ingredients mentioned in the cookbooks, with the intention of examining what ingredients were most common in American recipes during this period. When deciding what ingredients to extract, I researched the most consumed fruits, vegetables, dairy products, meats, and grains in the American diet today. By comparing the ingredients prevalent in these 18th, 19th, and 20th century cookbooks to prominent modern ingredients, we can see how food usage and American cuisine have evolved over time.</p>
                 
-                <img src="/Users/alexismurrell/Desktop/cookbook.jpg" alt="Cookbook with lettuce; photo by S O C I A L . C U T on Unsplash" width="896" height="582"/>
+                <img src="https://ajmurrel.github.io/homework/cookbook.jpg" alt="Cookbook with lettuce; photo by S O C I A L . C U T on Unsplash" width="896" height="582"/>
                 
                 <h2>Encoded Cookbooks</h2>
                 <xsl:apply-templates/> 
